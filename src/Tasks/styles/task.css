@@ -1,0 +1,113 @@
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, .25);
+    width: 250px;
+}
+
+.card-separator {
+    width: 80%;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.icon-button {
+    width: fit-content;
+    background-color: transparent;
+    font-size: 15pt;
+}	
+
+.icon-button:hover {
+    background-color: #e6e6e6;
+}
+
+.delete {
+    color: #a83800;
+}
+
+.edit {
+    color: #0032a8;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.estado {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    width: 100%;
+}
+
+.finalizada {
+    background-color: #019123;
+}
+
+.pendiente {
+    background-color: #7a7a7a;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.no-content{
+    margin-top: 20px;
+    color: #808080;
+}
+
+form{
+    width: 60%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #060061;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
